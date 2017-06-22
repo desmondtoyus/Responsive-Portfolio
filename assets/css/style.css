@@ -1,0 +1,508 @@
+*{
+box-sizing: border-box;
+
+}
+body{
+
+font-family: "Ariel", "Helvetica Neue", Helvetica, Serif;
+background-image: url("../images/background.png");
+padding: 0;
+color:#777777;
+margin: 0px;
+height: auto;
+
+position: relative; 
+}
+
+header {
+background-color:white;
+height: 80px;
+margin-top: 0;
+padding: 0px 0px 0px 0;
+border-bottom: 2px solid #cccccc;
+margin-bottom: 10px;
+width: 100%;
+
+}
+
+
+
+#logo{
+background-color:#4aaaa5;
+text-align: center;
+padding: 20px;
+margin: 0;
+color:white;
+
+height:100%;
+float:left;
+box-sizing: border-box;
+text-align: center;
+margin-left: 15%;
+}
+
+.unordered-list{
+	list-style: none;
+	display: inline-block;
+	height: 50%;
+
+}
+
+.unodered-list>li{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 25px;
+	
+}
+.unodered-list>li:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#mid1{
+margin-left:20%;
+}
+
+#content{
+margin-top: 0;
+margin-left: 15%;
+margin-right: 15%;
+width:60%;
+
+
+
+}
+h1{
+font-family: "Georgia", "Times New Roman", Times, Serif;
+color:white;
+font-size: 24px;
+text-align: center;
+}
+h2{
+font-family: "Georgia", "Times New Roman", Times, Serif;
+color:#4aaaa5;
+font-size: 20px;
+font-weight: bold;
+}
+
+h3{
+font-family: "Georgia", "Times New Roman", Times, Serif;
+color:#4aaaa5;
+font-size: 16px;
+font-weight: bold;
+}
+h4 {
+	font-size: 16px;
+}
+
+
+section{
+margin-top: 0;
+width: 960px;
+clear:both;
+background-image: url("../images/background.png");
+ 
+
+
+ float: left;
+ box-sizing: border-box;
+
+}
+
+#imgy1{
+margin-right: 20px;
+float: left;
+}
+
+#about{
+background-color: white;
+width:650px;
+margin:10px 10px 20px 10px;
+padding:30px 20px 0px 20px;
+float: left;
+border: 1px solid #cccccc;
+box-sizing: border-box;
+line-height: 30px;
+font-size: 16px;
+
+}
+
+#youtube{
+margin-left: 20px;	
+}
+
+
+#connect
+{
+	text-align: center;
+float: left;
+background-color:white;
+color:#4aaaa5;
+width: 250px;
+height: 180px;
+border: 1px solid #cccccc;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 30px;
+box-sizing: border-box;
+
+}
+#clear-left
+{
+	clear: left;
+	
+
+}
+
+footer{
+
+border-top: 3px solid #4aaaa5;
+margin-top: 30px;
+clear: left;
+background-color:#666666;
+padding: 25px;
+text-align: center;
+color: white;
+font-size: 10px;
+width: 100%;
+position: relative; 
+width: 100%;
+left: 0; 
+bottom: 0; 
+height: auto;
+}
+a{
+padding-top: 10px;
+text-decoration: none;
+color:#777777;
+
+}
+a:hover{
+	color: black;
+	cursor: pointer;
+}
+.ln {
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 37px;
+	height: 12px;
+	
+	border-left: thin solid #cccccc;
+	}
+
+.ln2 {
+	float: left;
+	margin-bottom: 20px;
+	border-bottom: thin solid #cccccc;
+	width: 100%;
+	margin-top: 8px;
+	
+
+	}
+
+	.ln1 {
+	float: left;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #cccccc;
+	width: 100%;
+	
+
+	}
+
+#input-div
+{
+
+border-radius: 5px;
+padding: 15px;
+width: 100%;
+
+}
+input[type=text]
+{
+display:inline-block;
+width:100%;
+
+margin: 10px 0px 20px 0px;
+border-radius:4px;
+border:1px solid #ccc;
+padding:12px 20px;
+
+}
+
+textarea
+{
+display:inline-block;
+width:100%;
+height:200px;
+margin: 10px 0px 20px 0px;
+border-radius:4px;
+border:1px solid #ccc;
+padding:12px 20px;
+
+}
+input[type=submit]
+{
+background-color:#4aaaa5;
+border-radius:5px;
+
+padding:3%;
+text-align:center;
+color:white;
+width:20%;
+}
+
+input[type=submit]:hover
+{
+cursor:pointer;
+color:#ccc;
+}
+
+
+.floating-box {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    position: relative; 
+}
+
+
+.after-box {
+display: inline-block;
+width:250px;
+padding:20px;
+text-align:center;
+background-color:#4aaaa5;
+opacity: 0.8;
+color:white;
+float: left;
+position: relative;
+left: 0px;
+bottom: 50%;
+z-index: 1000;
+  
+
+}
+
+.after-box:hover
+{
+padding:25px 20px 25px 20px;
+color:#ccc;
+cursor: pointer;
+}
+
+
+
+ @media only screen and (max-width: 980px)
+ {
+ 		#imgy1{
+width: 100%;
+}
+
+	body, header, footer {
+	width: 100%;
+
+	}
+#content{
+	width: 80%;
+	}
+	#about{
+	width: 50%;
+	}
+	.floating-box
+{
+	width: 100%;
+	position: relative;
+}
+
+.after-box{
+	width:86%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+}
+.imm{
+	width: 100%;
+}
+#input-div{
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+	#connect{
+	width: 38%;
+	text-align: center;
+	}
+	#youtube, #stack, #linkn
+	{width: 20%;
+	}
+
+	header{
+	width: 100%;
+
+	}
+	section
+	{
+		width: 90%;
+	}
+
+#mid1{
+	margin-left: 5%;
+}
+
+
+ }
+
+ @media only screen and (max-width: 768px)
+ {
+
+#imgy1{
+margin-right: 20px;
+width: 30%;
+float: left;
+}
+	body, header, footer {
+	width: 100%;
+
+	}
+	section
+	{
+		width: 90%;
+	}
+ 	#content{
+	width: 100%;
+	margin: 15px;
+	}
+	#about{
+	width: 100%;
+	}
+
+
+	.floating-box
+{
+	width: 46%;
+	position: relative;
+	margin: 10px
+}
+
+.after-box{
+	width:90%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+}
+
+#input-div{
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+
+	#connect{
+	width: 100%;
+	text-align: left;
+	}
+	#logo{
+		margin-left: 2%;
+	}
+	 #linkn, #stack, #youtube
+	 {
+	 	width: 10%;
+	 }
+ }
+ 
+
+ @media only screen and (max-width: 640px)
+ {
+
+#imgy1{
+
+width: 100%;
+
+}
+	body, header, footer {
+	width: 100%;
+
+	}
+	section
+	{
+		width: 90%;
+	}
+ 	#content{
+	width: 100%;
+	margin: 15px;
+	}
+	#about{
+	width: 90%;
+	}
+
+.floating-box
+{
+	width: 100%;
+	position: relative;
+	height: 300px;
+}
+
+.after-box{
+	width:90%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+}
+.imm{
+	width: 390px;
+	margin: 10% 10% 5% 1%;
+	height: 300px;
+}
+#input-div{
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+
+	#connect{
+	width: 90%;
+	text-align: left;
+	}
+	#logo{
+		width: 100%;
+		margin:0;
+		padding: 30px;
+	}
+	.unodered-list{
+		background-color: white;
+		color: white;
+		width: 100%
+		
+	}
+header{
+
+	padding-bottom: 30px;
+	height: 150%;
+	
+
+}
+ 
+ .unodered-list>li{
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 15px;
+	 }
+	 .unodered-list>li:nth-child(1){
+	 	padding-left: 12%;
+	 }
+	 #linkn, #stack, #youtube
+	 {
+	 	width: 10%;
+	 }
+	 
+}
